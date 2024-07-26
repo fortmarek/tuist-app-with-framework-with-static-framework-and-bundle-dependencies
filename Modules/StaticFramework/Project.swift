@@ -12,9 +12,9 @@ let project = Project(
             sources: "Sources/**",
             resources: "Resources/**",
             settings: .settings(
-                base: [
+                base: [:
                     // This fixes it, too
-                    "GENERATE_MASTER_OBJECT_FILE": "YES"
+//                    "GENERATE_MASTER_OBJECT_FILE": "YES"
                 ]
             )
         )
